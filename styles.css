@@ -1,0 +1,143 @@
+.price-card {
+  background-color: #334247;
+  width: 380px;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  margin-right: 18px;
+  padding-top: 33px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.price-card__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 64px;
+}
+.price-card__header_title {
+  line-height: 43px;
+  font-size: 35px;
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+}
+.price-card__header_title-description {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+}
+.price-card__price {
+  line-height: 67px;
+  width: 380px;
+  height: 105px;
+  font-weight: 700;
+  font-size: 55px;
+  margin: 33px 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price-card__description {
+  font-size: 15px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin: 0 26px;
+}
+.price-card__options-list_item {
+  width: 100%;
+  height: 50px;
+  display: inline-block;
+}
+.price-card__options-list_item:nth-child(odd) {
+  background-color: #2a3438;
+}
+.price-card__options_description {
+  font-size: 15px;
+  margin-left: 59px;
+}
+.price-card__order-btn {
+  width: 155px;
+  height: 40px;
+  border: 0;
+  padding: 0;
+  border-radius: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.price-card__elem-blue {
+  background-color: #3a6ba5;
+}
+
+.price-card__elem-green {
+  background-color: #5bb189;
+}
+
+.price-card__elem-orange {
+  background-color: #ec632a;
+}
+
+.check-mark-symbol {
+  width: 15px;
+  height: 13px;
+  margin: 18px 22px 19px;
+  position: absolute;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat";
+  color: #ffffff;
+}
+
+.rotated__cut-rectangle {
+  text-align: center;
+  right: -30px;
+  top: 31px;
+  border-bottom: 25px solid #dc3f45;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  transform: rotate(45deg);
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  width: 147px;
+  height: 0;
+  position: absolute;
+}
+
+.main-page {
+  background-color: #141b1c;
+  width: 1440px;
+  height: 1000px;
+  padding-top: 97px;
+}
+
+.price-table {
+  padding-top: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
