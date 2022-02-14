@@ -1,93 +1,95 @@
 .price-card {
-    background-color: $color-grey;
-    width: 380px;
-    height: 770px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  width: 380px;
+  height: 770px;
+  margin: 0 18px 0 0;
+  // margin-right: 18px;
+  padding: 33px 0 40px;
+  // padding-bottom: 40px;
+  background-color: $color-grey;
+
+  &__header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
-    margin-right: 18px;
-    padding-top: 33px;
-    padding-bottom: 40px;
-    position: relative;
-  
-    &__header {
-      display: flex;
-      flex-direction: column;
-  
-      align-items: center;
-      width: 100px;
-      // height: 64px;
-      &_title {
-        line-height: 43px;
-        font-size: 35px;
-        margin: 0;
-        text-align: center;
-        font-weight: 700;
-      }
-      &_title-description {
-        font-size: 20px;
-       font-weight: 300;
-       line-height: 24px;
-      }
-    }
-    &__price {
-      line-height: 67px;
-      width: 380px;
-      height: 105px;
-      font-weight: 700;
-      font-size: 55px;
-      margin: 33px 0 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    &__description {
-      font-size: 15px;
-      padding-bottom: 40px;
-  
+    width: 100px;
+
+    &_title {
+      margin: 0;
+      line-height: 43px;
+      font-size: 35px;
       text-align: center;
-      margin: 0 26px;
+      font-weight: 700;
     }
-    &__options-list_item {
-      width: 100%;
-      height: 50px;
-      display: inline-block;
-      &:nth-child(odd) {
-        background-color: $color-dark-grey;
-      }
-    }
-  
-    &__options_description {
-      font-size: 15px;
-      margin-left: 59px;
-    }
-    &__order-btn {
-      width: 155px;
-      height: 40px;
-      border: 0;
-      padding: 0;
-      border-radius: 20px;
-      color: $color-white;
-      text-transform: uppercase;
-  
-      margin: auto;
-      margin-bottom: 0;
+
+    &_title-description {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 24px;
     }
   }
-  .price-card__elem-blue {
-    background-color: $color-blue;
+
+  &__price {
+    display: flex;
+    justify-content: center;
+    line-height: 67px;
+    align-items: center;
+    margin: 33px 0 40px;
+    width: 380px;
+    height: 105px;
+    font-weight: 700;
+    font-size: 55px;
   }
-  .price-card__elem-green {
-    background-color: $color-light-green;
+
+  &__description {
+    text-align: center;
+    margin: 0 26px;
+    padding-bottom: 40px;
+    font-size: 15px;
   }
-  .price-card__elem-orange {
-    background-color: $color-orange;
+
+  &__options-list_item {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    &:nth-child(odd) {
+      background-color: $color-dark-grey;
+    }
   }
-  
-  .check-mark-symbol {
-    width: 15px;
-    height: 13px;
-    margin: 18px 22px 19px;
-    position: absolute;
+
+  &__options_description {
+    font-size: 15px;
+    margin-left: 59px;
   }
+  &__order-btn {
+    margin: auto;
+    margin-bottom: 0;
+    width: 155px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    border-radius: 20px;
+    color: $color-white;
+    // text-transform: uppercase;
+  }
+}
+.price-card__elem-blue {
+  background-color: $color-blue;
+}
+.price-card__elem-green {
+  background-color: $color-light-green;
+}
+.price-card__elem-orange {
+  background-color: $color-orange;
+}
+
+.check-mark-symbol {
+  position: absolute;
+  width: 15px;
+  height: 13px;
+  margin: 18px 22px 19px;
+}
