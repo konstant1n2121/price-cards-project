@@ -16,10 +16,9 @@
   flex-direction: column;
   align-items: center;
   width: 100px;
-  height: 64px;
 }
 .price-card__header_title {
-  line-height: 30px;
+  line-height: 43px;
   font-size: 35px;
   margin: 0;
   text-align: center;
