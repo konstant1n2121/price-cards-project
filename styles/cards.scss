@@ -7,9 +7,9 @@
   width: 380px;
   height: 770px;
   margin: 0 18px 0 0;
-  // margin-right: 18px;
+
   padding: 33px 0 40px;
-  // padding-bottom: 40px;
+
   background-color: $color-grey;
 
   &__header {
@@ -74,14 +74,15 @@
     border: 0;
     border-radius: 20px;
     color: $color-white;
-    // text-transform: uppercase;
   }
 }
-.price-card__elem-blue {
-  background-color: $color-blue;
-}
+
 .price-card__elem-green {
   background-color: $color-light-green;
+}
+
+.price-card__elem-blue {
+  background-color: $color-blue;
 }
 .price-card__elem-orange {
   background-color: $color-orange;
@@ -89,7 +90,7 @@
 
 .check-mark-symbol {
   position: absolute;
+  margin: 18px 22px 19px;
   width: 15px;
   height: 13px;
-  margin: 18px 22px 19px;
 }
