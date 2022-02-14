@@ -19,7 +19,7 @@
       width: 100px;
       height: 64px;
       &_title {
-        line-height: 43px;
+        line-height: 30px;
         font-size: 35px;
         margin: 0;
         text-align: center;
@@ -27,8 +27,7 @@
       }
       &_title-description {
         font-size: 20px;
-        line-height: 24px;
-        font-weight: 300;
+       font-weight: 300;
       }
     }
     &__price {
