@@ -1,0 +1,27 @@
+.price-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-end;
+  padding-top: 130px;
+  
+}
+
+html {
+  font-family: 'Montserrat';
+  color: $color-white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  background-color: $color-black;
+  
+
+
+
+
+}
