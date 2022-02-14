@@ -1,7 +1,7 @@
 .main-page {
   padding-top: 97px;
-  width: 100%;
-  height: 100%;
+  width: 1440px;
+  height: 1000px;
   background-color: $color-black;
 }
 
@@ -9,7 +9,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 18px;
+  padding: 0;
+  // padding-top: 18px;
+  // padding: 115px 132px 118px;
 }
 
 .rotated__rectangle {
