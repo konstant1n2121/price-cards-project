@@ -1,9 +1,9 @@
 .price-table {
   display: flex;
+  min-height: 100vh;
   flex-direction: row;
   justify-content: center;
-  align-content: flex-end;
-  padding-top: 115px auto;
+  padding-top: 115px;
 }
 
 html {
@@ -15,7 +15,5 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  width: auto;
-  height: auto;
   background-color: $color-black;
 }
