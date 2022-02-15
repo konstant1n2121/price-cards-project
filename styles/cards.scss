@@ -6,9 +6,13 @@
   overflow: hidden;
   width: 380px;
   height: 770px;
-  margin: 0 18px 0 0;
+  // margin: 0 18px 0 0;
   padding: 33px 0 40px;
   background-color: $color-grey;
+
+  &:nth-child(even) {
+    margin: 0 18px;
+  }
 
   &__header {
     display: flex;

@@ -6,9 +6,11 @@
   overflow: hidden;
   width: 380px;
   height: 770px;
-  margin: 0 18px 0 0;
   padding: 33px 0 40px;
   background-color: #334247;
+}
+.price-card:nth-child(even) {
+  margin: 0 18px;
 }
 .price-card__header {
   display: flex;
@@ -92,7 +94,6 @@
   justify-content: center;
   min-height: 100vh;
   padding-top: 65px;
-  padding-right: 3px;
   margin-left: auto;
   margin-right: auto;
 }
