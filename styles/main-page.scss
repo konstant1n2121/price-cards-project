@@ -2,7 +2,9 @@
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  padding-top: 115px;
+  // padding-top: 115px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 html {
@@ -12,7 +14,7 @@ html {
 
 body {
   display: flex;
-  
+
   justify-content: center;
   flex-direction: row;
   padding: 115px 132px;
