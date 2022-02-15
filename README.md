@@ -5,12 +5,12 @@
 
 
 
-
-HTML 5
-CSS 3
-SASS
-FlexBox
-BEM methodology
+ 
+* HTML 5 
+* CSS 3
+* SASS
+* FlexBox
+* BEM methodology
 
 
 author konstantin
